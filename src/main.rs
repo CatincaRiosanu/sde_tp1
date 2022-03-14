@@ -10,6 +10,7 @@ fn main() {
     vector1.add(3);
     vector1.add(2);
     vector1.add(1);
+    vector1.add(10);
 
     for i in 0..vector1.lista.len() {
         println!("{}", vector1.lista[i]);
