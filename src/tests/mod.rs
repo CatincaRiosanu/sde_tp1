@@ -18,7 +18,7 @@ fn ver_add() {
         vector1.add(7);
 
         vector1.remove(5);
-       // vector1.remove(9); Cum verific daca vreau sa dau remove la o functie in test? 
+       // vector1.remove(9); Cum verific daca vreau sa dau remove la o valoare care nu exista?
 
        assert!(vector1.lista[1] == 7);
     }
