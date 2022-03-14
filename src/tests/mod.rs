@@ -34,8 +34,25 @@ fn ver_prim() {
     vector1.add(7);
     vector1.add(6);
 
-    let mut vector2 = vector1.prim();
+    let vector2 = vector1.prim();
 
     assert!(vector2.lista[0] == 3);
+}
+
+#[test]
+
+fn ver_cuprins() {
+
+    let mut vector1 =Vector::new();
+
+    vector1.add(5);
+    vector1.add(4);
+    vector1.add(3);
+    vector1.add(7);
+    vector1.add(6);
+
+    let vector2 = vector1.cuprins(2, 5);
+
+    assert!(vector2.lista[1] == 4)
 
 }
